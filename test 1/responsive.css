@@ -1,0 +1,112 @@
+@media (max-width :991px) {
+
+    .banner-section {
+        min-height: 80vh;
+    }
+
+    .banner-section h1 {
+        font-size: 42px;
+    }
+
+    .left-column {
+        width: 55%;
+    }
+
+    .right-column {
+        width: 45%;
+
+    }
+
+    .tech-card {
+        width: 90%;
+        margin: unset;
+        margin-bottom: 20px;
+    }
+
+    .Session-title {
+        text-align: start;
+        font-size: 42px;
+        padding: 20px;
+    }
+
+    .tech-card h2 {
+        font-size: 24px;
+
+    }
+}
+
+
+@media (max-width :767px) {
+    .left-column {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .right-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tech-card {
+        width: 100%;
+    }
+
+    header.navbar nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger i {
+        font-size: 24px;
+    }
+
+    header.navbar {
+        padding: 0 20px;
+        height: 70px;
+    }
+
+    header.navbar .logo{
+        font-size: 22px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .banner-section h1 {
+        font-size: 25px;
+    }
+
+    .banner-section .register-btn {
+        padding: 15px 24px;
+        margin-top: 12px;
+    }
+
+    .Session-title {
+        text-align: start;
+        font-size: 22px;
+        padding: 0px;
+    }
+
+    .section-wrapper {
+        padding: 60px 40px;
+    }
+
+    .tech-card p {
+        line-height: 1.1;
+    }
+
+    .small-btn {
+        padding: 12px 20px;
+    }
+
+    footer {
+        align-items: unset;
+    }
+
+}

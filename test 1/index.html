@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024.</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <span class="logo">TechWorld</span>
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger-icon">
+            <i class="ri-menu-line"></i>
+        </div>
+    </header>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close">&times;</span>
+            <h2>Register for the Tech Conference</h2>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </div>
+    <main>
+        <section class="banner-section">
+            <div class="banner-content">
+                <h1>Welcome to Tech Conference 2024</h1>
+                <a href="#" id="openModal" class="register-btn">
+                    Register Now
+                </a>
+            </div>
+        </section>
+
+        <section class="section-wrapper">
+            <h2 class=" Session-title">Upcoming Session</h2>
+            <div class="main-content">
+                <div class="left-column">
+                    <div class="card-container">
+
+                        <div class="tech-card">
+                            <h2>Future of Web Development</h2>
+                            <p>Explore new tech stack of Webdevelopemnt , Lorem, ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Alias nisi dolores sequi? </p>
+                            <div class="learn-more-btn">
+                                <a href="" class="small-btn">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="tech-card">
+                            <h2>Blockchain & Cryptocurrency</h2>
+                            <p>Understand the future of blockchain & cryptocurrency, Lorem, ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Alias nisi dolores sequi? </p>
+                            <a href="" class="small-btn">Learn More</a>
+                        </div>
+                        <div class="tech-card">
+                            <h2>Quantum Computing</h2>
+                            <p>Learn about the future of quantum computing, Lorem, ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Alias nisi dolores sequi? </p>
+                            <a href="" class="small-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="tech-img">
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>follow us</span>
+        <ul class="social-link">
+            <li class="#">
+                <a href="#">
+                    <i class="ri-facebook-fill  social-icon"></i>Facebook</a>
+            </li>
+            <li class="#">
+                <a href="#">
+                    <i class="ri-twitter-fill social-icon"></i>Twitter</a>
+            </li>
+            <li class="#">
+                <a href="#"><i class="ri-linkedin-fill social-icon"></i>linkedin</a>
+            </li>
+            <li class="#">
+                <a href="#">
+                    <i class="ri-instagram-line social-icon"></i>Instagram</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
